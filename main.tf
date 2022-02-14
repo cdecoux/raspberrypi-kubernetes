@@ -32,16 +32,16 @@ module "cluster" {
                 retentionSize = "10GB"
 
                 // Set resource constraints for prometheus
-                resources = {
-                    requests = {
-                        cpu = "50m"
-                        memory = "200Mi"
-                    }
-                    limits = {
-                        cpu = "50m"
-                        memory = "400Mi"
-                    }
-                }
+#                resources = {
+#                    requests = {
+#                        cpu = "50m"
+#                        memory = "200Mi"
+#                    }
+#                    limits = {
+#                        cpu = "50m"
+#                        memory = "400Mi"
+#                    }
+#                }
             }
         }
     }

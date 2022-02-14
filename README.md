@@ -26,3 +26,5 @@ Once nodes are setup as specified above and SSH connection is setup, proceedd wi
 ---
 ### TODO
 - K8s Ingresses for LAN connection
+- [SealedSecrets](https://github.com/bitnami-labs/sealed-secrets)
+- [Local Docker Registry](https://docs.docker.com/registry/) (To host local custom Dockerfiles)
