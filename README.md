@@ -10,7 +10,7 @@ k3s: https://k3s.io/
 - Setup host names for driver and worker nodes. I used `raspberry-driver` as the driver node hostname (which is referenced in the Makefile.)
 ### Local
 - [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
-- Terraform ([tfenv](https://github.com/tfutils/tfenv) supported via the `.terraform-version` file.)
+- [Terraform](https://www.terraform.io/intro) ([tfenv](https://github.com/tfutils/tfenv) supported via the `.terraform-version` file.)
 - [Lens IDE](https://k8slens.dev/) (Recommended for general K8s Management, not needed to run through this repo)
 
 ## Steps
